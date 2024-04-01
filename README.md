@@ -4,19 +4,5 @@
 
 ## Exemplo de resultado 
 
-Por favor, Informe uma LETRA MAIUSCULA
-G
-      A
-     BBB
-    CCCCC
-   DDDDDDD
-  EEEEEEEEE
- FFFFFFFFFFF
-GGGGGGGGGGGGG
- FFFFFFFFFFF
-  EEEEEEEEE
-   DDDDDDD
-    CCCCC
-     BBB
-      A
-Deseja realizar outra operacao? pressione S para continuar
+
+![Captura de Tela (2)](https://github.com/LeoDallago/DiamanteLetras/assets/111309046/a0058ec4-247c-4ae1-b2a5-f54ec1d8b741)
