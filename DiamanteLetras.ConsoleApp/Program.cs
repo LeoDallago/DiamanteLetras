@@ -10,7 +10,7 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Diamante X");
+            Console.WriteLine("Diamante de Letras");
 
             while (continuar)
             {
