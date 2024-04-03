@@ -15,10 +15,11 @@
             while (continuar)
             {
 
-                Console.WriteLine("Por favor, Informe uma LETRA MAIUSCULA");
+                Console.WriteLine("Por favor, Informe uma LETRA ");
                 char tamanhoDiamante = Convert.ToChar(Console.ReadLine());
+                char tamanhoDiamanteMaiusculo = Char.ToUpper(tamanhoDiamante);
 
-                int tamanhoNumerado = Array.IndexOf(alphabetoArray, tamanhoDiamante);
+                int tamanhoNumerado = Array.IndexOf(alphabetoArray, tamanhoDiamanteMaiusculo);
 
                 int quantidadeDeX = 1;
                 int contador = 0;
@@ -43,17 +44,19 @@
                     Console.WriteLine();
                 }
 
-                Console.WriteLine("Deseja realizar outra operacao? pressione S para continuar") ;
-               string opcao =  Console.ReadLine() ; 
-                
-                if (opcao == "S" || opcao== "s") {
+                Console.WriteLine("Deseja realizar outra operacao? pressione S para continuar");
+                string opcao = Console.ReadLine();
+
+                if (opcao == "S" || opcao == "s")
+                {
                     continuar = true;
                     Console.Clear();
                 }
 
-                else { 
+                else
+                {
 
-                    continuar = false; 
+                    continuar = false;
                 }
 
             }
